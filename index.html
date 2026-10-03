@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Resume - Salman Mushtaq</title>
+        <meta name="description" content="Salman Mushtaq — Lead Software Engineer specializing in backend & platform architecture with Python, Go, and AWS. Based in Riyadh, Saudi Arabia." />
+        <meta name="author" content="Salman Mushtaq" />
+        <title>Salman Mushtaq | Lead Software Engineer</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typed.js"></script>
         <!-- Font Awesome icons (free version)-->
@@ -279,6 +279,54 @@
                 box-shadow: 0 8px 25px rgba(189, 93, 56, 0.4);
                 color: white;
             }
+
+            .cta-buttons {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 12px;
+                margin: 0 0 28px;
+            }
+
+            .btn-cta {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                border-radius: 25px;
+                padding: 12px 28px;
+                font-weight: 600;
+                text-decoration: none;
+                transition: all 0.3s ease;
+                border: none;
+            }
+
+            .btn-cta:hover {
+                transform: translateY(-2px);
+                text-decoration: none;
+            }
+
+            .btn-schedule {
+                background: linear-gradient(135deg, #bd5d38, #ff6b35);
+                color: #fff;
+                box-shadow: 0 4px 15px rgba(189, 93, 56, 0.3);
+            }
+
+            .btn-schedule:hover {
+                color: #fff;
+                box-shadow: 0 8px 25px rgba(189, 93, 56, 0.4);
+            }
+
+            .btn-whatsapp {
+                background: #25D366;
+                color: #fff;
+                box-shadow: 0 4px 15px rgba(37, 211, 102, 0.35);
+            }
+
+            .btn-whatsapp:hover {
+                color: #fff;
+                background: #1ebe57;
+                box-shadow: 0 8px 25px rgba(37, 211, 102, 0.45);
+            }
             
             /* Modern List Items */
             .fa-ul .fa-li {
@@ -347,6 +395,11 @@
                     transform: scale(1);
                 }
             }
+
+            #sideNav .img-profile {
+                object-fit: cover;
+                object-position: center 20%;
+            }
         </style>
     </head>
     <body id="page-top">
@@ -361,7 +414,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none"></span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jfif" alt="" /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.png" alt="Salman Mushtaq" /></span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -370,7 +423,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Certifications</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#downloads">Downloads</a></li>
                 </ul>
             </div>
@@ -382,7 +435,7 @@
                 <div class="resume-section-content">
                     <h1 class="mb-0">
                         <div class="name-container">
-                            <span class="animated-name name-highlight" id="salmanName">Salman Mushtaq</span>
+                            <span class="animated-name name-highlight" id="salmanName">Salman</span>
                         </div>
                         <div class="name-container">
                             <span class="animated-name text-primary" id="mushtaqName">Mushtaq</span>
@@ -392,10 +445,20 @@
                         <span class="text-danger" id="typed"></span>
                     </h4>
                     <div class="subheading mb-5">
-                        Riyadh, Saudi Arabia | 0536310501 |
+                        Riyadh, Saudi Arabia | +966 53 631 0501 |
                         <a href="mailto:salman14890@gmail.com">salman14890@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">Results-driven CIO with a decade of experience in leading high-impact tech projects from concept to enterprise-wide implementation. Proven expertise in full-stack development, microservices architecture, and AWS. I excel at bridging technical teams with executive leadership to drive revenue and ensure compliance.</p>
+                    <p class="lead mb-4">Lead backend engineer and Software Development Manager with 10+ years building production platforms in Saudi Arabia. Hands-on architect of a social app with 200K users (~20K daily active), a palm-biometric payments ecosystem (Moyasar, card tokenization), and a multi-tenant OAuth2 identity platform using Python/FastAPI, Go, PostgreSQL, AWS, and GCP. Cut API latency by up to 60% and CI/CD time by 83%, and lead a 16-member cross-functional team. Previously lead developer for Saudi Electricity Company smart metering across 15,000 meters.</p>
+                    <div class="cta-buttons">
+                        <a class="btn-cta btn-schedule" href="https://wa.me/966536310501?text=Hi%20Salman%2C%20I%27d%20like%20to%20schedule%20a%20call." target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-calendar-check"></i>
+                            Schedule a Call
+                        </a>
+                        <a class="btn-cta btn-whatsapp" href="https://wa.me/966536310501" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-whatsapp"></i>
+                            WhatsApp
+                        </a>
+                    </div>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/salman-mushtaq/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/salman14890"><i class="fab fa-github"></i></a>
@@ -411,68 +474,63 @@
                     <h2 class="mb-5">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5 experience-card">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Chief Information Officer & Head of Development</h3>
-                            <div class="subheading mb-3">Link Social Network</div>
-                            <p class="text-primary mb-2">03/2025 - Present</p>
+                            <h3 class="mb-0">Software Development Manager</h3>
+                            <div class="subheading mb-3">Link Social Network — Riyadh, Saudi Arabia</div>
+                            <p class="text-primary mb-2">Mar 2025 - Present</p>
+                            <p class="mb-3">Early-stage company building social, digital-identity, palm-biometric and payment products. Joined as the first backend engineer; promoted to Software Development Manager in under two years.</p>
                             <ul>
-                                <li><strong>Leadership:</strong> Direct and mentor a complete development team including iOS, Android, QA, UI/UX, and backend, establishing a cohesive and high-performing unit.</li>
-                                <li><strong>Strategy:</strong> Collaborate with C-suite executives (CTO, CEO, VPs) to align technology strategy with business objectives and drive critical business decisions.</li>
-                                <li><strong>Integration:</strong> Oversee all major technical integrations with external services and partners, ensuring seamless data communication and system compatibility.</li>
-                                <li><strong>Innovation:</strong> Implement best-in-class solutions for a "super app" ecosystem, managing products like Link Pay and other upcoming services.</li>
+                                <li>Remain the hands-on backend owner: write core microservices, review and approve all backend pull requests, and continuously evolve system architecture with the CTO.</li>
+                                <li><strong>Link Identity:</strong> Architected a centralized, multi-tenant identity platform with OAuth2, deployable on cloud or on-premise, serving as the shared backbone for Link Wallet and Link Palm.</li>
+                                <li><strong>Link Wallet:</strong> Led backend for a digital wallet that links payment cards to a user's palm; integrated Moyasar with card tokenization so stored tokens authorize palm-based payments.</li>
+                                <li><strong>Link Palm:</strong> Led SDK development for palm registration and payment hardware, coordinating internal engineers and an external hardware partner.</li>
+                                <li>Lead a 16-member cross-functional team across Backend, iOS, Android, QA and UI/UX, including two mobile team leads; personally hired 10 of the 16.</li>
+                                <li>Own delivery of the Link Social app (200K users, ~20K DAU) on the Apple App Store and Google Play; translate CEO and VP goals into PRDs and a prioritized Jira backlog, and run Scrum ceremonies.</li>
+                                <li>Partner with Cybersecurity, DevOps and SRE on security, infrastructure and releases; supported a palm-payment PoC with Saudi Awwal Bank (SAB).</li>
                             </ul>
                         </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5 experience-card">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Lead Backend Developer</h3>
-                            <div class="subheading mb-3">Link Social Network</div>
-                            <p class="text-primary mb-2">12/2023 - 03/2025</p>
+                            <h3 class="mb-0">Senior Software Engineer — Backend Lead</h3>
+                            <div class="subheading mb-3">Link Social Network — Riyadh, Saudi Arabia</div>
+                            <p class="text-primary mb-2">Apr 2023 - Mar 2025</p>
                             <ul>
-                                <li><strong>Mentorship:</strong> Mentor and guide developers and team members, fostering a culture of technical excellence and best practices.</li>
-                                <li><strong>Code Quality:</strong> Implemented a new CI/CD pipeline using SonarQube to improve code quality and enforce best coding practices across the team.</li>
-                                <li><strong>Development:</strong> Architected and developed scalable REST APIs using Python (FastAPI, Django), ensuring maintainability and high performance.</li>
-                                <li><strong>Optimization:</strong> Employed advanced database strategies like materialized views and sharding to meet strict API SLAs and optimize performance.</li>
+                                <li>Joined as the first backend engineer and grew the backend team to 8 (4 full-time engineers and 4 freelance contractors); led architecture, code reviews, standards and technical decisions from Dec 2023.</li>
+                                <li>Designed the initial cloud-based microservices architecture; built core services for posts, reactions, comments and notifications using Python, FastAPI, SQLAlchemy, Alembic and PostgreSQL.</li>
+                                <li>Shipped the first production release on the App Store and Google Play in Sep 2023 and scaled the platform to 200K users.</li>
+                                <li>Reduced API response times from ~800 ms to ~400 ms (50%) and SLA-critical APIs from ~500 ms to ~200 ms (60%) through PostgreSQL execution-plan analysis, indexing and application-logic optimization.</li>
+                                <li>Cut the end-to-end CI/CD pipeline from ~2 hours to ~20 minutes (83%) while keeping build, QA, security-scan, test and deployment stages.</li>
+                                <li>Moved the team from multi-branch GitHub Flow to trunk-based development with feature flags across three deployment environments.</li>
+                                <li>Moved synchronous workloads to event-driven processing using AWS SQS, SNS, Lambda and EventBridge; consolidated selected microservices into a modular monolith where independent deployment did not justify the operational cost.</li>
+                                <li>Integrated FCM push notifications, Unifonic SMS and WhatsApp messaging via Infobip; introduced Agile/Scrum and helped establish a dedicated QA function.</li>
                             </ul>
                         </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5 experience-card">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Backend Developer</h3>
-                            <div class="subheading mb-3">Link Social Network</div>
-                            <p class="text-primary mb-2">04/2023 - 12/2023</p>
+                            <h3 class="mb-0">Senior Software Developer / Software Developer</h3>
+                            <div class="subheading mb-3">MEMF Ideal Technical Solutions — Saudi Arabia</div>
+                            <p class="text-primary mb-2">Nov 2016 - Apr 2023</p>
+                            <p class="mb-3">Senior Software Developer (Nov 2021 - Apr 2023) | Software Developer (Nov 2016 - Nov 2021)</p>
                             <ul>
-                                <li>Developed and deployed a robust backend infrastructure for the social platform using AWS services (S3, SQS, SNS, SES, Lambda) and containerization (Docker, Kubernetes).</li>
-                                <li>Collaborated with DevOps and cybersecurity teams to ensure all systems were secure and scalable, implementing monitoring with Grafana and New Relic APM to maintain system health.</li>
-                                <li>Optimized data retrieval for core user-facing features by implementing materialized views and database sharding, which directly contributed to meeting API Service Level Agreements (SLAs) under high traffic.</li>
+                                <li>Lead developer for smart-metering software on a ~SAR 15M Saudi Electricity Company (SEC) project, enabling remote reading of 15,000 electricity meters across the Kingdom via DLMS and Modbus.</li>
+                                <li>Developed the SMARTEX multi-utility platform covering electricity, gas, water and building-management systems.</li>
+                                <li>Delivered technical implementation for Saudi Aramco SAOO and NAOO industrial-cybersecurity Proofs of Concept using Xage Security Zero Trust technology.</li>
+                                <li>Built billing-system capabilities for ACWA Power's Sakaka Solar PV project with partner Enexsa.</li>
+                                <li>Built internal HR, Finance and approval-workflow applications in C# and PHP, replacing paper-based processes company-wide.</li>
                             </ul>
                         </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5 experience-card">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Software Developer</h3>
-                            <div class="subheading mb-3">MEMF Ideal Technical Solutions</div>
-                            <p class="text-primary mb-2">11/2018 - 04/2023</p>
+                            <h3 class="mb-0">C# Developer</h3>
+                            <div class="subheading mb-3">2B Vision Technologies — Lahore, Pakistan</div>
+                            <p class="text-primary mb-2">Dec 2015 - Jul 2016</p>
                             <ul>
-                                <li><strong>Achievement:</strong> Developed a bespoke software solution for a critical project with the Saudi Electricity Company, securing a 7.5 million SAR contract and a 2 million SAR security deposit. This action saved the company from being blacklisted and maintained its vendor status.</li>
-                                <li><strong>Technical:</strong> Designed and built a compliant meter reading software in C#, .NET, and MS SQL Server using the DLMS protocol, including the creation of 32- and 64-bit installers.</li>
-                                <li><strong>Leadership:</strong> Participated in the development of the MUC (Multi Utility Controller) product, leveraging Python for live data dashboards and web consoles for clients like ARAMCO.</li>
-                                <li><strong>Cybersecurity:</strong> Led the implementation and integration of Xage cyber security solutions in ARAMCO SAOO and NAOO, handling all aspects from POC to final integration.</li>
+                                <li>Built and maintained client business applications using C# and ASP.NET MVC.</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5 experience-card">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Software Developer</h3>
-                            <div class="subheading mb-3">MEMF Ideal Technical Solutions</div>
-                            <p class="text-primary mb-2">11/2016 - 11/2018</p>
-                            <ul>
-                                <li>Developed the company's internal ERP system, automating manual processes and integrating with third-party software to improve operational efficiency.</li>
-                                <li>Streamlined and automated a range of manual business processes by developing and integrating the company's internal ERP system with external platforms like Bitrix24 and Odoo. This effort significantly improved operational efficiency.</li>
-                                <li>Developed custom desktop applications and software tools using the C#/.NET framework and MS SQL Server to address specific business needs, including designing and building a reliable Windows installer for distribution.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    
                 </div>
             </section>
             <hr class="m-0" />
@@ -482,12 +540,19 @@
                     <h2 class="mb-5">Education</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5 education-card">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">University of the Punjab</h3>
-                            <div class="subheading mb-3">Master of Science</div>
-                            <div>Information Technology</div>
+                            <h3 class="mb-0">PUCIT, University of the Punjab</h3>
+                            <div class="subheading mb-3">MSc in Information Technology</div>
                             <p>Lahore, Pakistan</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">10/2012 - 10/2014</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">Oct 2014</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5 education-card">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">The Islamia University of Bahawalpur</h3>
+                            <div class="subheading mb-3">BSc in Advanced Computer Studies</div>
+                            <p>Bahawalpur, Pakistan</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Aug 2012</span></div>
                     </div>
                 </div>
             </section>
@@ -496,78 +561,65 @@
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Technical Skills</div>
+                    <div class="subheading mb-3">Core Skills</div>
                     <div class="row">
                         <div class="col-md-6">
-                            <h5 class="mb-3">Programming Languages</h5>
+                            <h5 class="mb-3">Backend</h5>
                             <ul>
-                                <li>Python (FastAPI, Django)</li>
-                                <li>C#, .NET</li>
+                                <li>Python, FastAPI, SQLAlchemy, Alembic, AsyncIO</li>
+                                <li>Go, REST APIs, Microservices, Modular Monolith</li>
+                                <li>Event-Driven Architecture, System Design, OAuth2, JWT, Redis</li>
                             </ul>
-                            
-                            <h5 class="mb-3">Cloud & DevOps</h5>
-                            <ul>
-                                <li>AWS (S3, SQS, SNS, SES, Lambda, EventBridge)</li>
-                                <li>Docker, Kubernetes</li>
-                                <li>CI/CD, Grafana, Loki</li>
-                            </ul>
-                            
+
                             <h5 class="mb-3">Databases</h5>
                             <ul>
-                                <li>PostgreSQL, MySQL, MongoDB</li>
-                                <li>CockroachDB, MS SQL Server</li>
+                                <li>PostgreSQL, MySQL, Amazon Aurora</li>
+                                <li>Query Optimization, Execution Plans, Indexing, Partitioning</li>
+                            </ul>
+
+                            <h5 class="mb-3">Cloud & DevOps</h5>
+                            <ul>
+                                <li>AWS (EKS, Lambda, SQS, SNS, EventBridge, S3, RDS/Aurora, CloudFront)</li>
+                                <li>GCP (GKE), Multi-Cloud Architecture, Kubernetes, Cloudflare</li>
+                                <li>CI/CD, Trunk-Based Development, Feature Flags</li>
                             </ul>
                         </div>
                         <div class="col-md-6">
-                            <h5 class="mb-3">APIs & Protocols</h5>
+                            <h5 class="mb-3">Observability</h5>
                             <ul>
-                                <li>REST APIs, OAuth2</li>
-                                <li>DLMS Protocol, Websockets</li>
+                                <li>OpenTelemetry, Prometheus, Grafana</li>
+                                <li>Sentry, New Relic, Custom Metrics</li>
                             </ul>
-                            
-                            <h5 class="mb-3">Methodologies</h5>
+
+                            <h5 class="mb-3">Payments & Integrations</h5>
                             <ul>
-                                <li>Microservices Architecture</li>
-                                <li>Agile, Scrum, Kanban</li>
+                                <li>Moyasar Payment Gateway, Card Tokenization</li>
+                                <li>Biometric Identity, Multi-Tenant SaaS</li>
+                                <li>FCM, Unifonic, Infobip (SMS/WhatsApp)</li>
                             </ul>
-                            
-                            <h5 class="mb-3">Tools & Monitoring</h5>
+
+                            <h5 class="mb-3">Leadership & Industrial / IoT</h5>
                             <ul>
-                                <li>SonarQube, New Relic APM</li>
-                                <li>RabbitMQ, Kafka</li>
-                                <li>Crystal Reports</li>
+                                <li>Engineering Management, Technical Hiring, Agile/Scrum</li>
+                                <li>PRDs, Stakeholder Management, Cross-Functional Delivery</li>
+                                <li>Smart Metering, DLMS, Modbus, SCADA, Zero Trust</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="subheading mb-3 mt-5">Soft Skills</div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Strategic Leadership</li>
-                                <li>Team Mentorship & Development</li>
-                                <li>Stakeholder Collaboration</li>
-                                <li>Technical Problem Solving</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Cross-Functional Communication</li>
-                                <li>Project Management</li>
-                            </ul>
-                        </div>
-                    </div>
-                    
+                    <div class="subheading mb-3 mt-5">Languages</div>
+                    <ul>
+                        <li>English (Professional) | Urdu (Native) | Punjabi (Fluent) | Arabic (Basic)</li>
+                    </ul>
+
                     <ul class="list-inline dev-icons">
                         <li class="list-inline-item"><i class="fab fa-python"></i></li>
                         <li class="list-inline-item"><i class="fab fa-aws"></i></li>
                         <li class="list-inline-item"><i class="fab fa-docker"></i></li>
                         <li class="list-inline-item"><i class="fab fa-github"></i></li>
                         <li class="list-inline-item"><i class="fab fa-linux"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-google"></i></li>
                     </ul>
-                    
+                </div>
             </section>
             <hr class="m-0" />
             
@@ -578,44 +630,24 @@
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
-                            PMP (Project Management Professional) - In Progress
+                            AWS Certified Generative AI Developer — Professional (in progress)
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
-                            AWS Developer – Associate
+                            PMP — exam in progress (35 contact hours completed, Simplilearn, 2026)
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
-                            XAGE Cyber Security Certified
+                            Software Engineer; REST API (Intermediate) — HackerRank, 2023
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
-                            Oracle Practitioner
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
-                            Advantech RMA Certificate Level 1 & 2
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
-                            Advantech WISE-PaaS Certified Developer Level 1
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
-                            Advantech Web Access SCADA Application Engineer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
-                            COPA-DATA Zenon Basic Certificate
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
-                            AIUT Remote LPG Tanks Monitoring System
+                            Certified WebAccess/SCADA Application Engineer — Advantech, 2017
                         </li>
                     </ul>
-                    
-                    <h3 class="mb-3 mt-5">Interests & Consultancies</h3>
-                    <p>Consultant and mentor to over 100+ fresh graduates on career planning and technical skills. Passionate about teaching and public speaking on technology trends.</p>
+
+                    <h3 class="mb-3 mt-5">Community</h3>
+                    <p>Technical writer since 2012 (C# Corner, codewithsmushtaq.blogspot.com); mentored 100+ students and early-career developers.</p>
                 </div>
             </section>
             <hr class="m-0" />
@@ -625,7 +657,7 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">Downloads</h2>
                     <div class="text-center">
-                        <a href="https://drive.google.com/file/d/10O0g4pNRjZrArKkj2he-uwAxovsbFJP_/view?usp=sharing" class="btn btn-modern" target="_blank">
+                        <a href="assets/resume/Salman_Mushtaq_Lead_Software_Engineer.pdf" class="btn btn-modern" target="_blank" download>
                             <i class="fas fa-download mr-2"></i>Download My Resume
                         </a>
                     </div>
@@ -819,7 +851,7 @@
         
         <script>
             var typed = new Typed('#typed',{
-                           strings:["Chief Information Officer (CIO)", "Head of Development", "Lead Backend Developer"],
+                           strings:["Lead Software Engineer", "Software Development Manager", "Backend & Platform Architecture", "Python · Go · AWS"],
                            backSpeed: 15,
                            smartBackspace: true,
                            backDelay: 1200,
